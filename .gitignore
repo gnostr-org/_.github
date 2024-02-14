@@ -10,3 +10,5 @@ _site/
 vendor/
 
 .DS_Store
+
+.gnostr
