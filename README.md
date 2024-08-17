@@ -21,87 +21,87 @@ cargo search gnostr --limit 100
 
 <hr>
 
-$`
+`
 gnostr = "0.0.48"                    # git+nostr workflow utility
 `
 
-$`
+`
 gnostr-cat = "0.0.40"                # Command-line client for web sockets, like netcat/curl/socat for ws://.
 `
 
-$`
+`
 gnostr-legit = "0.0.10"              # gnostr-legit: blob manager and pow miner
 `
 
-$`
+`
 gnostr-command = "0.0.3"             # gnostr-command: gnostr rust command template
 `
 
-$`
+`
 gnostr-get-relays = "0.0.3"          # gnostr-get-relays: part of the gnostr workflow commands
 `
 
-$`
+`
 gnostr-grep = "0.0.4"                # grep a file
 `
 
-$`
+`
 gnostr-relay = "0.0.4"               # gnostr:git+nostr protocol relay
 `
 
-$`
+`
 gnostr-sha256 = "0.0.5"              # generate a sha256 hash
 `
 
-$`
+`
 gnostr-web = "0.0.4"                 # gnostr-web: a gnostr web/hyper web service.
 `
 
-$`
+`
 gnostr-bins = "0.0.40"               # git+nostr workflow utility
 `
 
-$`
+`
 gnostr-cli = "0.0.46"                # git+nostr workflow utility
 `
 
-$`
+`
 gnostr-core = "0.4.2-alpha.1"        # Replication protocol for Hypercore feeds
 `
 
-$`
+`
 gnostr-lookup = "0.0.40"             # git+nostr workflow utility
 `
 
-$`
+`
 gnostr-types = "0.7.1-unstable"      # Types for nostr protocol handling
 `
 
-$`
+`
 gnostr-hello = "0.0.7"               # gnostr-hello: extrememly simple async web service in rust
 `
 
-$`
+`
 gnostr_qr = "0.0.3"                  # gnostr_rs: part of the git+nostr workflow utility
 `
 
-$`
+`
 gnostr-bits = "0.0.2"                # A bittorrent service for gnostr.
 `
 
-$`
+`
 gnostr-lib-proc-macros = "0.0.25"    # Proc macros for the gnostr-lib crate
 `
 
-$`
+`
 gnostr-xq = "0.0.0"                  # gnostr-xq:A reimplementation of jq.
 `
 
-$`
+`
 gnostrd = "0.0.40"                   # git+nostr workflow utility
 `
 
-$`
+`
 nips = "0.0.36"
 `
 
