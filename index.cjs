@@ -13,5 +13,7 @@ exec('which node', (error, stdout, stderr) => {
     return;
   }
   console.log(`stdout: ${stdout}`);
+  const node = stdout;
+  console.log(`node: ${node}`);
 });
 
