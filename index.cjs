@@ -15,5 +15,14 @@ exec('which node', (error, stdout, stderr) => {
   console.log(`stdout: ${stdout}`);
   const node = stdout;
   console.log(`node: ${node}`);
+  exec('which node', (error, stdout, stderr) => {
+    if (error) {
+      console.error(`exec error: ${error}`);
+      return;
+    }
+    console.log(`stdout: ${stdout}`);
+    const node = stdout;
+    console.log(`node: ${node}`);
+  });
 });
 
