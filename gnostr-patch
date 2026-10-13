@@ -68,7 +68,7 @@ for td in .gnostr/ ; do
             ## -m "$(date +%s)/$(pwd | grep -o '[^/]*$')/$(git branch --show-current)" | \
             gnostr legit \
                 --repo . \
-                --ppow 00000 \
+                --pow 00000 \
                 -m "$REPO_PATH" | \
                 gnostr-cat -u wss://relay.damus.io | \
                 $(grep 'OK') || echo "working..."

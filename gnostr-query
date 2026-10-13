@@ -22,7 +22,7 @@ parser.add_argument('-g',
 parser.add_argument('-l', '--limit', type=int)
 
 def command_context():
-    print("gnostr-query -a $(gnostr --sec $(gnostr-sha256) | gnostr-xq .pubkey | sed \'s/\"//g\') | gnostr-cat wss://nos.lol");
+    print("gnostr query -a $(gnostr --nsec $(gnostr --hash \"\") | gnostr-xq .pubkey | sed \'s/\"//g\') | gnostr-cat wss://nos.lol");
 
 def usage():
     parser.print_help()
